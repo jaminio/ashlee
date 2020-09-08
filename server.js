@@ -1,6 +1,6 @@
 var rbx = require('noblox.js');
 var ProgressBar = require('progress');
-var cookie = 'cookie'
+var cookie = process.env.COOKIE
 var group = 4683371;
 
 var actionTypeId = 6;
